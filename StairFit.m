@@ -25,7 +25,7 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 % (mV). It is not recommended to change the threshold for robustness.
 %%%%%%%%%%%%%%%%%%
 %StairFit will simultaneously explore D2 models (D1-1+inc : inc : D1-1+D2*inc).
-%If the threshold of fitting error is not reached, StairFit will automaticly set D1 to D1-1+D2*inc and explore the next set of D2 models until the threshold is reached.
+%If the threshold of fitting error is not reached, StairFit will automaticly set D1 to D1+D2*inc and explore the next set of D2 models until the threshold is reached.
 %%%%%%%%%%%%%%%%%%
 %OUTPUT:
 %MUNE, a struct containing information about the model corresponding to MUNE.
