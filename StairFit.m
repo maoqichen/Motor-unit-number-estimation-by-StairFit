@@ -3,7 +3,7 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 % $$$ Documentation of StairFit  $$$
 % Author:Maoqi Chen
 % Email:hiei@mail.ustc.edu.cn  or  maoqi.chen@uor.edu.cn
-% Update:2024.02.02
+% Update:2024.05.09
 % Please cite:
 % [1]Chen, M., Lu Z, Zong Y, Li X, and Zhou P A Novel Analysis of Compound Muscle Action Potential Scan: Staircase Function Fitting and StairFit Motor Unit Number Estimation. IEEE Journal of Biomedical and Health Informatics, 2023. 27(3): 1579-1587.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
