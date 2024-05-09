@@ -12,7 +12,7 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 %INPUT:
 %data,
 % A N*2 matrix, the first column is the stimulation intensity (mA)(sorted from smallest to largest, or vice versa),
-%the second column is the correspoding CMAP amplitude (mV). 
+% the second column is the correspoding CMAP amplitude (mV). 
 %D1, 
 % The initial value of MUNE, a reasonable positive integer smaller than the estimated MUNE.           
 %D2, 
