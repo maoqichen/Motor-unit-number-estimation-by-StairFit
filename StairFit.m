@@ -11,8 +11,8 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 %Suggested format : MUNE=StairFit(data,D1,D2,inc);
 %INPUT:
 %data,
-% A N*2 matrix, the first column is the stimulation intensity (mA),the second column is the correspoding CMAP amplitude (mV). 
-% The stimulus intensity needs to be ranked from smallest to largest (StairFit fits the CMAP scan by a non-decreasing staircase function).
+% A N*2 matrix, the first column is the stimulation intensity (mA)(sorted from smallest to largest, or vice versa),
+%the second column is the correspoding CMAP amplitude (mV). 
 %D1, 
 % The initial value of MUNE, a reasonable positive integer smaller than the estimated MUNE.           
 %D2, 
@@ -42,6 +42,9 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 close all;
 if nargin<5
 th=0.015;
+end
+if data(1,1)>data(end,1)
+    data=flipud(data);
 end
 label=0;
 ts=clock;
