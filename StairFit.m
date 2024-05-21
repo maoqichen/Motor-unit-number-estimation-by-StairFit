@@ -6,6 +6,7 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 % Update:2024.05.09
 % Please cite:
 % [1]Chen, M., Lu Z, Zong Y, Li X, and Zhou P A Novel Analysis of Compound Muscle Action Potential Scan: Staircase Function Fitting and StairFit Motor Unit Number Estimation. IEEE Journal of Biomedical and Health Informatics, 2023. 27(3): 1579-1587.
+% [2]Chen, M. and Zhou, P. StairFit MUNE: A free and open source MatLab program for CMAP scan processing. Clinical Neurophysiology: Official Journal of the International Federation of Clinical Neurophysiology, 2024. 160: 111-112.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Full format: [MUNE,STAIR]=StairFit(data,D1,D2,inc,th);
 %Suggested format : MUNE=StairFit(data,D1,D2,inc);
