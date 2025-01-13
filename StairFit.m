@@ -10,12 +10,13 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Full format: [MUNE,STAIR]=StairFit(data,D1,D2,inc,th);
 %Suggested format : MUNE=StairFit(data,D1,D2,inc);
+%Examples: MUNE=StairFit(data,0,4,2);
 %INPUT:
 %data,
 % A N*2 matrix, the first column is the stimulation intensity (mA)(sorted from smallest to largest, or vice versa),
 % the second column is the correspoding CMAP amplitude (mV). 
 %D1, 
-% The initial value of MUNE, a reasonable positive integer smaller than the estimated MUNE.(The easiest way is to just set D1 to 1)          
+% The initial value of MUNE, a reasonable nonnegative integer smaller than the estimated MUNE.(The easiest way is to just set D1 to 0)          
 %D2, 
 % The number of parallel operations per run (recommended to be set as the number of CPU cores).
 %inc, 
