@@ -2,7 +2,7 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 
 % $$$ Documentation of StairFit  $$$
 % Author:Maoqi Chen
-% Email:hiei@mail.ustc.edu.cn  or  maoqi.chen@uor.edu.cn
+% Email:hiei@mail.ustc.edu.cn  or  maoqi.chen@uhrs.edu.cn
 % Update:2024.05.09
 % Please cite:
 % [1]Chen, M., Lu Z, Zong Y, Li X, and Zhou P A Novel Analysis of Compound Muscle Action Potential Scan: Staircase Function Fitting and StairFit Motor Unit Number Estimation. IEEE Journal of Biomedical and Health Informatics, 2023. 27(3): 1579-1587.
@@ -15,7 +15,7 @@ function [MUNE,STAIR]=StairFit(data,D1,D2,inc,th)
 % A N*2 matrix, the first column is the stimulation intensity (mA)(sorted from smallest to largest, or vice versa),
 % the second column is the correspoding CMAP amplitude (mV). 
 %D1, 
-% The initial value of MUNE, a reasonable positive integer smaller than the estimated MUNE.           
+% The initial value of MUNE, a reasonable positive integer smaller than the estimated MUNE.(The easiest way is to just set D1 to 1)          
 %D2, 
 % The number of parallel operations per run (recommended to be set as the number of CPU cores).
 %inc, 
