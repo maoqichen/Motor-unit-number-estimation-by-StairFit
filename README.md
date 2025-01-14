@@ -6,3 +6,5 @@ Details of StairFit MUNE can be found in the following paper:
 Chen, M., Lu Z, Zong Y, Li X, and Zhou P A Novel Analysis of Compound Muscle Action Potential Scan: Staircase Function Fitting and StairFit Motor Unit Number Estimation. IEEE Journal of Biomedical and Health Informatics, 2023. 27(3): 1579-1587.
 
 The program is for research and non-commercial purposes only. Please provide appropriate citation when using the program. For any questions regarding the program, please contact Maoqi Chen, PhD, at maoqi.chen@uhrs.edu.cn or  hiei@mail.ustc.edu.cn.
+
+P.S. If you don't want to go into the details of parameter setting of StairFit, you can try the easy-to-use version 'StairFit_easy'.
